@@ -1,147 +1,257 @@
 # ⚡ ORVEXA
 
-### Autonomous AI Action Intelligence
-
-**ORVEXA turns human intent into executable missions, verified actions, and measurable outcomes.**
-
-Instead of simply giving you an answer, ORVEXA is designed around a different idea:
-
-> **Give it an outcome. Let it plan, act, verify, and report back.**
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0618,50:5B21B6,100:EC4899&height=220&section=header&text=ORVEXA&fontSize=72&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=AUTONOMOUS%20AI%20ACTION%20INTELLIGENCE&descAlignY=62&descSize=18" width="100%"/>
+</p>
 
 <p align="center">
+  <strong>Turn intent into action. Verify the result. See what actually happened.</strong>
+</p>
 
-![Status](https://img.shields.io/badge/ENGINE-v3.0-8B5CF6?style=for-the-badge)
-![Frontend](https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=next.js)
-![Backend](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi)
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python)
+<p align="center">
+  <img src="https://img.shields.io/badge/ENGINE-v3.0-8B5CF6?style=for-the-badge&labelColor=09090B"/>
+  <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=next.js&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=FFFFFF"/>
+  <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=FFFFFF"/>
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Ammarakram-dev/ORVEXA?style=flat-square&color=8B5CF6"/>
+  <img src="https://img.shields.io/github/forks/Ammarakram-dev/ORVEXA?style=flat-square&color=EC4899"/>
+  <img src="https://img.shields.io/github/last-commit/Ammarakram-dev/ORVEXA?style=flat-square&color=F59E0B"/>
 </p>
 
 ---
 
-## 🧠 What ORVEXA Does
+## ◉ THE IDEA
 
-ORVEXA converts a natural-language goal into an **action mission**.
+Most AI systems stop at:
 
 ```text
-Human Intent
-     ↓
-   Intent
-     ↓
-   Mission
-     ↓
-    Plan
-     ↓
-   Execute
-     ↓
-   Verify
-     ↓
-  Outcome
+PROMPT
+  ↓
+RESPONSE
 ```
 
-Every mission can produce an **Outcome Contract** and **Proof-of-Work Trace**, making the process easier to understand and audit.
+ORVEXA is built around a different flow:
+
+```text
+                    HUMAN INTENT
+                         │
+                         ▼
+                  ┌─────────────┐
+                  │    INTENT   │
+                  └──────┬──────┘
+                         ▼
+                  ┌─────────────┐
+                  │    MISSION  │
+                  └──────┬──────┘
+                         ▼
+                  ┌─────────────┐
+                  │     PLAN    │
+                  └──────┬──────┘
+                         ▼
+                  ┌─────────────┐
+                  │    ACTION   │
+                  └──────┬──────┘
+                         ▼
+                  ┌─────────────┐
+                  │   VERIFY    │
+                  └──────┬──────┘
+                         ▼
+                  ┌─────────────┐
+                  │   OUTCOME   │
+                  └─────────────┘
+```
+
+> **Don't just ask AI what to do. Give it an outcome to work toward.**
 
 ---
 
-## ✦ Core Experience
+# ✦ ORVEXA CORE
 
-| Capability                  | What it does                           |
-| --------------------------- | -------------------------------------- |
-| 🎯 **Intent Engine**        | Understands the user's desired outcome |
-| 🧩 **Mission Planner**      | Breaks goals into executable tasks     |
-| ⚡ **Action Engine**        | Runs mission actions                   |
-| 🔍 **Verification**         | Checks whether actions succeeded       |
-| 📜 **Outcome Contract**     | Defines the expected result            |
-| 🧾 **Proof-of-Work**        | Records execution evidence             |
-| 📊 **Intelligence Metrics** | Tracks mission performance             |
-| 🧠 **Mission Memory**       | Keeps workspace activity available     |
+### 🎯 Intent Engine
+
+Transforms natural-language goals into structured mission intent.
+
+### 🧩 Mission Planner
+
+Breaks a desired outcome into an ordered execution plan.
+
+### ⚡ Action Engine
+
+Moves a mission from planning into execution.
+
+### ◈ Verification Engine
+
+Checks whether expected actions actually reached their intended state.
+
+### 📜 Outcome Contract
+
+Defines what a successful mission should produce.
+
+### 🧾 Proof-of-Work Trace
+
+Creates a structured record of what happened during execution.
+
+### 📊 Intelligence Layer
+
+Tracks mission activity, completion, verification, and system performance.
+
+### 🧠 Mission Memory
+
+Keeps mission and activity information available throughout the workspace.
 
 ---
 
-## 🚀 Why ORVEXA?
+## ⟡ THE AUTONOMOUS LOOP
 
-Traditional AI often stops at:
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│   INTENT → PLAN → EXECUTE → VERIFY → OUTCOME                │
+│      ↑                                      │                │
+│      └──────────── MISSION MEMORY ──────────┘                │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
 
-**Prompt → Response**
-
-ORVEXA is built around:
-
-**Intent → Plan → Action → Verification → Outcome**
-
-The focus is not only on generating information, but on creating a structured path from **what someone wants** to **what actually happened**.
+Every mission becomes a structured lifecycle instead of an isolated AI response.
 
 ---
 
-## 🖥️ Product Interface
+# ◈ COMMAND CENTER
 
-A futuristic command center provides:
+ORVEXA provides a dedicated command interface for managing autonomous missions.
 
-- 🛰️ Autonomous engine status
+```text
+┌─────────────────────────────────────────────────────────────┐
+│  ORVEXA                         AUTONOMOUS CORE ● ONLINE     │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  GIVE ORVEXA AN OUTCOME                                      │
+│                                                             │
+│  ┌───────────────────────────────────────────────────────┐  │
+│  │ Prepare my weekly intelligence report                 │  │
+│  └───────────────────────────────────────────────────────┘  │
+│                                                             │
+│       INTENT → PLAN → EXECUTE → VERIFY → OUTCOME           │
+│                                                             │
+│  ACTIVE       COMPLETED       ACTIONS       VERIFIED       │
+│    00            01              03            03          │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Interface includes
+
+- ⚡ Autonomous engine status
 - 🎛️ Mission command center
+- 🔎 Mission search
 - 📈 Intelligence metrics
-- 🔎 Mission inspector
-- ⚙️ Execution progress
-- 🧾 Proof-of-work traces
+- 🧾 Outcome contracts
+- 🔐 Proof-of-work traces
 - 📡 Live activity
+- ⚙️ Execution progress
 - 🌑 Premium dark interface
 
 ---
 
-## 🏗️ Architecture
+# ⌁ ARCHITECTURE
 
 ```text
-┌──────────────────────┐
-│     Next.js UI       │
-│   Command Center     │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│      FastAPI         │
-│     API Layer        │
-└──────────┬───────────┘
-           │
-     ┌─────┼─────┐
-     ▼     ▼     ▼
-  Intent  Mission Outcome
-  Engine  Planner  Engine
-     │      │       │
-     └──────┼───────┘
-            ▼
-      Verification
-            │
-            ▼
-      Mission Outcome
+                         ORVEXA
+                           │
+                           ▼
+                 ┌──────────────────┐
+                 │    NEXT.JS UI    │
+                 │  Command Center  │
+                 └────────┬─────────┘
+                          │
+                          ▼
+                 ┌──────────────────┐
+                 │     FASTAPI      │
+                 │    API LAYER     │
+                 └────────┬─────────┘
+                          │
+             ┌────────────┼────────────┐
+             ▼            ▼            ▼
+        ┌─────────┐  ┌─────────┐  ┌─────────┐
+        │ INTENT  │  │ MISSION │  │ OUTCOME │
+        │ ENGINE  │  │ PLANNER │  │ ENGINE  │
+        └────┬────┘  └────┬────┘  └────┬────┘
+             │             │             │
+             └─────────────┼─────────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │   VERIFICATION  │
+                  │     ENGINE      │
+                  └────────┬────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │     OUTCOME     │
+                  │    CONTRACT     │
+                  └─────────────────┘
 ```
 
 ---
 
-## 🛠️ Tech Stack
+# ⚙️ TECHNOLOGY
 
-**Frontend**
-
-`Next.js` · `React` · `TypeScript` · `CSS`
-
-**Backend**
-
-`Python` · `FastAPI` · `Pydantic`
-
-**Architecture**
-
-`REST API` · `Mission Engine` · `Verification Engine` · `Local Persistence`
+| Layer         | Technology             |
+| ------------- | ---------------------- |
+| Interface     | Next.js                |
+| UI            | React + TypeScript     |
+| Styling       | Custom CSS             |
+| API           | FastAPI                |
+| Language      | Python                 |
+| Validation    | Pydantic               |
+| Communication | REST API               |
+| State         | Local persistence      |
+| Architecture  | Modular service engine |
 
 ---
 
-## ⚡ Run Locally
+# ◉ MISSION LIFECYCLE
 
-### 1. Backend
+```text
+01  RECEIVE
+    │
+    ▼
+02  UNDERSTAND
+    │
+    ▼
+03  DECOMPOSE
+    │
+    ▼
+04  EXECUTE
+    │
+    ▼
+05  VERIFY
+    │
+    ▼
+06  CONTRACT
+    │
+    ▼
+07  REPORT
+```
+
+The goal is simple:
+
+### **Every mission should have a visible beginning, process, and outcome.**
+
+---
+
+# 🚀 RUN ORVEXA
+
+### Backend
 
 ```bash
 cd backend
 python -m uvicorn app.main:app --reload --port 8000
 ```
 
-### 2. Frontend
+### Frontend
 
 ```bash
 cd frontend
@@ -149,38 +259,101 @@ npm install
 npm run dev
 ```
 
-Open:
+### Open
 
 ```text
 http://localhost:3000
 ```
 
-Backend API:
+### API
 
 ```text
 http://localhost:8000
 ```
 
----
+### API Documentation
 
-## 🔮 Roadmap
-
-- 🤖 Real AI model integration
-- 🗄️ Persistent database
-- 🔐 Production authentication
-- 🌐 Real external action integrations
-- 🧠 Long-term mission memory
-- ⚙️ Background task execution
-- 📊 Advanced intelligence analytics
-- ☁️ Production deployment
+```text
+http://localhost:8000/docs
+```
 
 ---
 
-## ✨ The Vision
+# ◇ PROJECT STRUCTURE
 
-**ORVEXA is built around one simple question:**
+```text
+ORVEXA/
+│
+├── backend/
+│   └── app/
+│       ├── core/
+│       ├── schemas/
+│       ├── services/
+│       └── main.py
+│
+├── frontend/
+│   └── app/
+│       ├── auth/
+│       ├── page.tsx
+│       ├── layout.tsx
+│       └── globals.css
+│
+├── .gitignore
+└── README.md
+```
 
-### What if AI didn't just tell you what to do — but could turn your intent into a verified outcome?
+---
+
+# 🔮 ROADMAP
+
+```text
+CURRENT
+  ● Mission orchestration
+  ● Action execution
+  ● Verification
+  ● Outcome contracts
+  ● Proof-of-work traces
+  ● Intelligence metrics
+  ● Mission activity
+
+NEXT
+  ○ Real AI model integration
+  ○ Persistent database
+  ○ Production authentication
+  ○ Background workers
+  ○ External action integrations
+  ○ Long-term memory
+  ○ Advanced analytics
+  ○ Cloud deployment
+```
+
+---
+
+# ✦ DESIGN PHILOSOPHY
+
+ORVEXA is designed around three principles:
+
+### 01 — INTENT FIRST
+
+Understand what the user actually wants to accomplish.
+
+### 02 — ACTION OVER ANSWERS
+
+Move from information toward structured execution.
+
+### 03 — VERIFICATION MATTERS
+
+A completed action should be distinguishable from an assumed result.
+
+---
+
+# ⚡ THE VISION
+
+AI should not only be a place where people **ask questions**.
+
+It can become a place where people **define outcomes**.
+
+ORVEXA explores that direction through an action-oriented architecture where missions can be planned, executed, verified, and represented as measurable outcomes.
 
 ---
 
@@ -188,8 +361,14 @@ http://localhost:8000
 
 ### ⚡ ORVEXA
 
-**Intent. Action. Verification. Outcome.**
+**INTENT · ACTION · VERIFICATION · OUTCOME**
+
+<br/>
 
 Built by **Ammar Akram**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC4899,50:7C3AED,100:0B0618&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </p>
